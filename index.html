@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hansol Jeong</title>
+<meta name="description" content="Hansol Jeong — undergraduate researcher at Hansung University working on federated learning privacy and machine unlearning for LLMs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=Noto+Sans+KR:wght@400;500&display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;background:#FAFAF8}
+a{color:#1F4E8C;text-decoration:none}a:hover{color:#163A69;text-decoration:underline}
+</style>
+</head>
+<body>
+<div style="width: 100%; min-height: 100vh; background: #FAFAF8; color: #1C1C1A; font-family: Inter, 'Noto Sans KR', system-ui, sans-serif; font-size: 16px; line-height: 1.6">
+
+<header style="border-bottom: 1px solid #E4E2DC; background: #FAFAF8">
+<nav style="max-width: 960px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px" aria-label="Main">
+<a href="#top" style="font-family: 'Source Serif 4', Georgia, serif; font-size: 20px; font-weight: 600; color: #1C1C1A">Hansol Jeong</a>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 20px; font-size: 15px">
+<a href="#research" style="color: #44443F">Research</a>
+<a href="#publications" style="color: #44443F">Publications</a>
+<a href="#projects" style="color: #44443F">Projects</a>
+<a href="#blog" style="color: #44443F">Blog</a>
+<a href="#cv" style="color: #44443F">Education</a>
+</div>
+</nav>
+</header>
+
+<main style="max-width: 960px; margin: 0 auto; padding: 0 24px">
+
+<section id="top" style="padding: 72px 0 56px; display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start">
+<img src="profile.jpg" alt="Portrait of Hansol Jeong" style="width: 168px; height: 168px; border-radius: 50%; object-fit: cover; object-position: 50% 30%; flex-shrink: 0; background: #ECEAE4">
+<div style="flex: 999 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<div>
+<h1 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 44px; line-height: 1.15; font-weight: 600">Hansol Jeong <span style="font-family: 'Noto Sans KR', sans-serif; font-size: 26px; font-weight: 400; color: #6B6A64">정한솔</span></h1>
+<p style="margin: 8px 0 0; font-size: 17px; color: #44443F">Undergraduate student, Department of Applied Artificial Intelligence, Hansung University</p>
+</div>
+<p style="margin: 0; font-size: 17px; max-width: 620px">I study how data <strong>leaks from</strong> machine learning models and how it can be <strong>removed from</strong> them — from gradient leakage attacks in federated learning to machine unlearning in large language models. I am preparing to pursue graduate study in trustworthy and privacy-preserving machine learning.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 4px">
+<a href="mailto:hansolj031005@gmail.com" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border: 1px solid #D6D4CC; border-radius: 8px; color: #1C1C1A; font-size: 15px; font-weight: 500">
+<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>Email</a>
+<a href="https://github.com/hansol980" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 16px; border: 1px solid #D6D4CC; border-radius: 8px; color: #1C1C1A; font-size: 15px; font-weight: 500">
+<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 18l6-6-6-6"></path><path d="M8 6l-6 6 6 6"></path></svg>GitHub</a>
+</div>
+</div>
+</section>
+
+<section id="research" style="padding: 48px 0; border-top: 1px solid #E4E2DC; display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 28px; font-weight: 600">Research Interests</h2>
+<p style="margin: 0; color: #44443F; max-width: 680px">My questions follow the lifecycle of private data inside a model: how it leaks during training, how it can be erased afterwards, and how we can verify that it is truly gone.</p>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px">
+<div style="background: #FFFFFF; border: 1px solid #E4E2DC; border-radius: 12px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; color: #1F4E8C">01 · LEAKAGE</span>
+<h3 style="margin: 0; font-size: 18px; font-weight: 600">Privacy Attacks in Federated Learning</h3>
+<p style="margin: 0; font-size: 15px; color: #55554F">How shared gradients and visible graph context reveal private node features in federated graph learning.</p>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #E4E2DC; border-radius: 12px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; color: #1F4E8C">02 · REMOVAL</span>
+<h3 style="margin: 0; font-size: 18px; font-weight: 600">Machine Unlearning for LLMs</h3>
+<p style="margin: 0; font-size: 15px; color: #55554F">Removing specific knowledge from a trained language model without retraining it from scratch.</p>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #E4E2DC; border-radius: 12px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 13px; font-weight: 600; letter-spacing: 0.06em; color: #1F4E8C">03 · VERIFICATION</span>
+<h3 style="margin: 0; font-size: 18px; font-weight: 600">Evaluating Unlearning</h3>
+<p style="margin: 0; font-size: 15px; color: #55554F">Does an unlearned model really forget? Testing unlearning against extraction, membership inference and relearning.</p>
+</div>
+</div>
+</section>
+
+<section id="publications" style="padding: 48px 0; border-top: 1px solid #E4E2DC; display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 28px; font-weight: 600">Publications</h2>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<p style="margin: 0; font-size: 17px; font-weight: 600">Neighbor-Specific Context Leakage in Federated Graph Learning</p>
+<p style="margin: 0; font-size: 15px; color: #44443F"><strong>Hansol Jeong</strong>, Jinu Gong</p>
+<p style="margin: 0; font-size: 15px; color: #55554F; font-style: italic">Submitted to ICASSP 2027 (under review)</p>
+<div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; font-size: 14px">
+<span style="padding: 4px 10px; border: 1px solid #D6D4CC; border-radius: 6px; color: #55554F">Paper — after review</span>
+<span style="padding: 4px 10px; border: 1px solid #D6D4CC; border-radius: 6px; color: #55554F">Code — after review</span>
+</div>
+</div>
+</section>
+
+<section id="projects" style="padding: 48px 0; border-top: 1px solid #E4E2DC; display: flex; flex-direction: column; gap: 24px">
+<h2 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 28px; font-weight: 600">Research Projects</h2>
+
+<div style="display: flex; flex-direction: column; gap: 16px">
+<div style="background: #FFFFFF; border: 1px solid #E4E2DC; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between">
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Does Unlearning Really Forget?</h3>
+<span style="padding: 3px 10px; border-radius: 999px; background: #F1EFE9; font-size: 13px; font-weight: 500; color: #55554F">Planned</span>
+</div>
+<p style="margin: 0; font-size: 15px; color: #44443F">Applying privacy attacks — membership inference, extraction and relearning — to LLMs unlearned with WHP-style methods, to test whether the forgotten knowledge is actually removed or only hidden.</p>
+<p style="margin: 0; font-size: 14px; color: #6B6A64">LLM Unlearning · Privacy Attacks · Evaluation</p>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #E4E2DC; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between">
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Reproducing “Revisiting Who’s Harry Potter”</h3>
+<span style="padding: 3px 10px; border-radius: 999px; background: #E8EEF6; font-size: 13px; font-weight: 500; color: #1F4E8C">In progress</span>
+</div>
+<p style="margin: 0; font-size: 15px; color: #44443F">Reproduction study of WHP and its causal-intervention follow-up for LLM unlearning, in the original full-parameter setting. Includes a comparison of paper vs. reproduced results and notes on what it took to reproduce them. Part of a lab research project on unlearning.</p>
+<p style="margin: 0; font-size: 14px; color: #6B6A64">LLM Unlearning · Reproducibility · 2× H100</p>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; font-size: 15px; font-weight: 500">
+<a href="[REPORT LINK]">Report</a>
+<a href="[REPO LINK]">Code</a>
+</div>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #E4E2DC; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 10px">
+<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between">
+<h3 style="margin: 0; font-size: 19px; font-weight: 600">Context Leakage in Federated Graph Learning</h3>
+<span style="padding: 3px 10px; border-radius: 999px; background: #E9F3EC; font-size: 13px; font-weight: 500; color: #2E6B45">Submitted</span>
+</div>
+<p style="margin: 0; font-size: 15px; color: #44443F">An audit of feature leakage in FedLoG that separates what an attacker learns from the observed gradient from what is already available through graph context. Across five datasets, actual neighbors improve reconstruction over count-matched random and shuffled context, while adding gradient inversion on top of neighbor information does not consistently help. Carried out through the university's Career Exploration Credit program.</p>
+<p style="margin: 0; font-size: 14px; color: #6B6A64">Federated Graph Learning · GNN · Gradient Inversion</p>
+</div>
+</div>
+
+<h3 style="margin: 16px 0 0; font-size: 20px; font-weight: 600">Other Projects</h3>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px">
+<div style="border: 1px solid #E4E2DC; border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 6px">
+<h4 style="margin: 0; font-size: 16px; font-weight: 600">Robot Teleoperation in Isaac Sim</h4>
+<p style="margin: 0; font-size: 14px; color: #55554F">Connecting a physical leader arm to a simulated robot with Isaac Sim and ROS 2.</p>
+</div>
+<div style="border: 1px solid #E4E2DC; border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 6px">
+<h4 style="margin: 0; font-size: 16px; font-weight: 600">BikeCast</h4>
+<p style="margin: 0; font-size: 14px; color: #55554F">Demand forecasting service for Seoul’s public bike system, built as a cloud computing team project.</p>
+</div>
+<div style="border: 1px solid #E4E2DC; border-radius: 12px; padding: 20px; display: flex; flex-direction: column; gap: 6px">
+<h4 style="margin: 0; font-size: 16px; font-weight: 600">OneClickMeet</h4>
+<p style="margin: 0; font-size: 14px; color: #55554F">Team app that saves places found on Instagram and Naver and recommends them back to couples.</p>
+</div>
+</div>
+</section>
+
+<section id="blog" style="padding: 48px 0; border-top: 1px solid #E4E2DC; display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px">
+<h2 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 28px; font-weight: 600">Blog</h2>
+<a href="[BLOG LINK]" style="font-size: 15px; font-weight: 500">All posts →</a>
+</div>
+<div style="display: flex; flex-direction: column">
+<a href="[POST LINK]" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 16px 0; border-bottom: 1px solid #E4E2DC; color: #1C1C1A">
+<span style="font-size: 16px; font-weight: 500">A Map of LLM Unlearning: From Gradient Ascent to RMU</span>
+<span style="font-size: 14px; color: #6B6A64">Survey · [DATE]</span>
+</a>
+<a href="[POST LINK]" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 16px 0; border-bottom: 1px solid #E4E2DC; color: #1C1C1A">
+<span style="font-size: 16px; font-weight: 500">Reproducing Revisiting WHP: What the Paper Didn’t Tell Me</span>
+<span style="font-size: 14px; color: #6B6A64">Reproduction log · [DATE]</span>
+</a>
+<a href="[POST LINK]" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px; padding: 16px 0; border-bottom: 1px solid #E4E2DC; color: #1C1C1A">
+<span style="font-size: 16px; font-weight: 500">Paper Review: Who’s Harry Potter? Approximate Unlearning in LLMs</span>
+<span style="font-size: 14px; color: #6B6A64">Paper review · [DATE]</span>
+</a>
+</div>
+</section>
+
+<section id="cv" style="padding: 48px 0 64px; border-top: 1px solid #E4E2DC; display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 28px; font-weight: 600">Education</h2>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 16px">
+<div>
+<p style="margin: 0; font-size: 17px; font-weight: 600">Hansung University</p>
+<p style="margin: 0; font-size: 15px; color: #44443F">B.S. in Applied Artificial Intelligence</p>
+</div>
+<p style="margin: 0; font-size: 15px; color: #6B6A64">[START YEAR] – [GRAD YEAR] (expected)</p>
+</div>
+</section>
+
+</main>
+
+<footer style="border-top: 1px solid #E4E2DC">
+<div style="max-width: 960px; margin: 0 auto; padding: 24px; font-size: 14px; color: #6B6A64">© 2026 Hansol Jeong · Last updated [DATE]</div>
+</footer>
+
+</div>
+</body>
+</html>
